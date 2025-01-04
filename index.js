@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=';
 app.use(express.static("public"));
-const apiKey = "877d78fb818062d3226feb81f9842a44";
+const apiKey = "";
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/" ,  (req,res)=>{
