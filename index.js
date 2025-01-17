@@ -2,6 +2,7 @@ import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
 const app = express();
+// this port should be in env file 
 const port = 3000;
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=';
 app.use(express.static("public"));
